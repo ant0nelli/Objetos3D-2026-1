@@ -31,6 +31,8 @@ Utilizamos o three.js para visualizar e comparar visualmente o modelo original e
 ## Comparação dos Polígonos
 
 - Mouse Pesado 3D (64MB)
+
 ![Estatísticas do mouse sem compressão](../img/high.png)
 - Mouse Leve 3D (1.4MB)
+
 ![Estatísticas do mouse com compressão](../img/low.png)

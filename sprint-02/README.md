@@ -8,43 +8,44 @@ Utilizando o Blender foi possível realizar:
 - Utilizamos o decimate para reduzir o número de poligonos
 - Usamos o Draco para comprimir os modelos
 
-## Tabela
-
----
-
 ## Tabela de otimização
 
-| Objetos | Triângulos | Arestas | Faces | Vértices | Tamanho (MB)| Redução tamanho (%)|
+| Objetos | Vértices | Arestas | Faces | Triângulos | Tamanho (MB)| Redução tamanho |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| Arma | De:<br>Para: | <br> | <br> | <br> | <br> | <br> |
-| Balaio | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Barro | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Bule | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Cadeira | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Caixa Registradora | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Canoa | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Carranca | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Chaleira | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Chapéu | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Charrete | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Coador | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Cocar | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Crânio | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Digitalizadora | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Espírito Santo | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Ferro | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Incenso | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Jarro de Barro | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Jarro de Metal | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Lampião | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Máquina de Costura | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Máquina de vídeo | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Máscara Homem | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Máscara Macaco | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Mesa Escolar | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Pilão | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Telefone de Mesa | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Telefone de Parede | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Tigre | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Vela de Mesa | De:<br>Para: | <br> | <br> | <br> | <br> |
-| Xícara | De:<br>Para: | <br> | <br> | <br> | <br> |
+| Arma | De: 800.000<br>Para: 195.000 | 2.300.000<br>495.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 71,8<br>30,2 | 57,9% |
+| Balaio | De: 918.000<br>Para: 300.000 | 2.347.000<br>577.000 | 1.439.000<br>288.000 | 1.439.000<br>288.000 | 85,3<br>41,6 | 51,2% |
+| Vaso de Barro | De: 795.000<br>Para: 195.000 | 2.295.000<br>493.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 59,9<br>18,5 | 69,1% |
+| Bule | De: 806.000<br>Para: 204.000 | 2.305.000<br>504.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 63,2<br>21,6 | 65,8% |
+| Cadeira | De: 830.000<br>Para: 223.000 | 2.328.000<br>522.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 87,2<br>43,8 | 49,8% |
+| Caixa Registradora | De: 817.000<br>Para: 212.000 | 2.315.000<br>510.000 | 1.499.000<br>300.000 | 1.499.000<br>300.000 | 77,9<br>36,0 | 53,8% |
+| Canoa | De: 806.000<br>Para: 200.000 | 2.305.000<br>500.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 73,4<br>31,8 | 56,7% |
+| Carranca | De: 833.000<br>Para: 228.000 | 2.332.000<br> 527.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 80,4<br>38,1 | 52,6% |
+| Chaleira | De: 794.000<br>Para: 193.000 | 2.293.000<br>492.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 74,1<br>32,8 | 55,7% |
+| Chapéu | De: 835.000<br>Para: 226.000 | 2.333.000<br>525.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 74,4<br>32,0 | 57,0% |
+| Charrete | De: 868.000<br>Para: 257.000 | 2.362.000<br>553.000 | 1.497.000<br>299.000 | 1.497.000<br>299.000 | 82,6<br>39,4 | 52,3% |
+| Coador | De: 844.000<br>Para: 235.000 | 2.342.000<br>533.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 78,5<br>35,9 | 54,3% |
+| Cocar | De: 839.000<br>Para: 227.000 | 2.337.000<br>526.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 77,2<br>34,6 | 55,2% |
+| Crânio | De: 812.000<br>Para: 209.000 | 2.310.000<br>508.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 73,8<br>32,1 | 56,5% |
+| Digitalizadora | De: 893.000<br>Para: 278.000 | 2.374.000<br>570.000 | 1.488.000<br>298.000 | 1.488.000<br>298.000 | 82,4<br>38,9 | 52,8% |
+| Espírito Santo | De: 864.000<br>Para: 246.000 | 2.361.000<br>543.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 79,1<br>35,9 | 54,6% |
+| Ferro | De: 832.000<br>Para: 230.000 | 2.325.000<br>527.000 | 1.495.000<br>299.000 | 1.495.000<br>299.000 | 69,1<br>26,9 | 61,1% |
+| Incenso | De: 829.000<br>Para: 222.000 | 2.327.000<br>521.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 72,0<br>29,6 | 58,9% |
+| Jarro de Barro | De: 278.000<br>Para: 77.000 | 777.000<br>176.000 | 500.000<br>100.000 | 500.000<br>100.000 | 31,9<br>17,8 | 44,2% |
+| Jarro de Metal | De: 815.000<br>Para: 212.000 | 2.314.000<br>511.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 85,5<br>43,6 | 49,0% |
+| Lampião | De: 823.000<br>Para: 218.000 | 2.322.000<br>517.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 74,6<br>32,5 | 56,4% |
+| Máquina de Costura | De: 859.000<br>Para: 250.000 | 2.356.000<br>547.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 76,2<br>33,2 | 56,4% |
+| Máquina de vídeo | De: 842.000<br>Para: 231.000 | 2.340.000<br>529.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 77,6<br>35,0 | 54,9% |
+| Máscara Homem | De: 841.000<br>Para: 235.000 | 2.340.000<br>533.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 81,9<br>39,3 | 52,0% |
+| Máscara Macaco | De: 822.000<br>Para: 220.000 | 2.319.000<br>518.000 | 1.498.000<br>300.000 | 1.498.000<br>300.000 | 78,7<br>36,7 | 53,4% |
+| Mesa Escolar | De:832.000<br>Para: 224.259 | 2.331.000<br>523.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 71,0<br>28,6 | 59,7% |
+| Pilão | De: 816.000<br>Para: 214.000 | 2.316.000<br>513.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 75,6<br>33,6 | 55,6% |
+| Telefone de Mesa | De: 834.000<br>Para: 227.000 | 2.333.000<br>525.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 79,5<br>37,1 | 53,3% |
+| Telefone de Parede | De: 830.000<br>Para: 219.000 | 2.330.000<br>518.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 75,9<br>33,5 | 55,9% |
+| Tigre | De: 795.000<br>Para:199.000 | 2.280.000<br>495.000 | 1.500.000<br>297.000 | 1.500.000<br>297.000 | 85,6<br>44,4 | 48,1% |
+| Vela de Mesa | De: 810.000<br>Para: 204.000 | 2.319.000<br>504.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 71,9<br>30,1 | 58,1% |
+| Xícara | De: 816.000<br>Para: 214.000 | 2.315.000<br>513.000 | 1.500.000<br>300.000 | 1.500.000<br>300.000 | 68,8<br>26,9 | 60,9% |
+| **Média geral** | - | - | - | - | - | **55,7%** |
+
+> **Resultado da otimização**
+>
+> A redução média de tamanho foi de **55,7%**, indicando uma otimização significativa dos modelos 3D.

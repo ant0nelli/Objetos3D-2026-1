@@ -12,9 +12,40 @@
 
 O objetivo foi classificar os modelos já disponíveis no site por meio de uma tabela, possibilitando melhor organização e separando os modelos em bons e modelos que precisam de correção. A tabela serve como registro do estado atual do acervo.
 
-| Objetos | Avaliação | Obs |
-|--------|-------------------|--------|
-| — | — | — |
+| Objeto | Avaliação | Obs | Tem no acervo? |
+|--------|-----------|-----|----------------|
+| Arma | Ok | — | Sim |
+| Balaio | Ok | — | Sim |
+| Barro | Ok | — | Sim |
+| Bule | Ok | — | Sim |
+| Cadeira | Melhorar | Retirar papel do banco | Sim |
+| Caixa Registradora | Melhorar | Retirar madeira de baixo | Não |
+| Canoa | Melhorar | Uniformizar fundo | Não |
+| Carranca | Ok | — | Sim |
+| Chaleira | Melhorar | Retirar falha na alça | Sim |
+| Chapéu | Ok | — | — |
+| Charrete | Ok | — | — |
+| Coador de Café | Ok | — | — |
+| Cocar Indígena | Ok | — | — |
+| Crânio de Onça | Ok | — | — |
+| Máquina de Escrever | Melhorar | Retirar madeira de baixo | — |
+| Espírito Santo | Ok | — | — |
+| Ferro | Ok | — | — |
+| Incensário | Ok | — | — |
+| Jarro de Barro | Melhorar | Arrumar internamente | — |
+| Jarro de Metal | Ok | — | — |
+| Lampião | Ok | — | — |
+| Máquina de Costura | Melhorar | Retirar madeira de baixo | — |
+| Máquina de Vídeo | Ok | — | — |
+| Máscara Homem | Ok | — | — |
+| Máscara Macaco | Ok | — | — |
+| Mesa e Cadeira | Melhorar | Retirar falha no encosto | — |
+| Pilão | Ok | — | — |
+| Telefone de Mesa | Melhorar | Arrumar fio | — |
+| Telefone de Parede | Melhorar | Arrumar fio | — |
+| Tigre | Ok | — | — |
+| Vela de Mesa | Ok | — | — |
+| Xícara | Melhorar | Retirar erro na alça | — |
 
 
 

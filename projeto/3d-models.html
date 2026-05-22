@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Acervo 3D - Museu Histórico de São José</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Acervo Virtual 3D</h1>
+    <p>Clique em um modelo para visualizar em tela cheia.</p>
+    <a href="/index.html">Página Principal</a>
+    <a href="/acervo.html">Acervo</a>
+  </header>
+
+  <main id="gallery" class="gallery"></main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-btn" class="close-btn">&times;</button>
+      
+      <div id="modal-loading" class="loading-overlay">
+        <div class="spinner"></div>
+        <p>Carregando Modelo 3D...</p>
+      </div>
+
+      <div id="modal-canvas-container"></div>
+      <div id="load-time-display" class="load-time hidden">⏱ 0.00s</div>
+    </div>
+  </div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

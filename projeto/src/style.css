@@ -1,0 +1,69 @@
+/* Estilos Globais */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { background-color: #f3f4f6; color: #1f2937; }
+
+.header { text-align: center; padding: 40px 20px; background: #ffffff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.header h1 { font-size: 2.5rem; color: #111827; }
+
+/* Galeria de Cards */
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 40px; max-width: 1200px; margin: 0 auto; }
+.card { background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.2s; cursor: pointer; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
+.card-preview { width: 100%; height: 200px; background: #e5e7eb; position: relative; }
+.card-title { padding: 15px; text-align: center; font-weight: bold; font-size: 1.1rem; }
+
+/* Loading dos Cards */
+.card-loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #f9fafb; font-size: 0.9rem; color: #6b7280; z-index: 10; }
+
+/* Modal (Tela Cheia) */
+.modal { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.85); z-index: 1000; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(5px); }
+.modal-content { width: 95vw; height: 95vh; background: #ffffff; border-radius: 16px; position: relative; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.25); }
+#modal-canvas-container { width: 100%; height: 100%; }
+
+/* Botão Fechar */
+.close-btn { position: absolute; top: 20px; right: 20px; background: #ef4444; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; font-size: 24px; cursor: pointer; z-index: 1010; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+.close-btn:hover { background: #dc2626; }
+
+/* Loading Overlay do Modal */
+.loading-overlay { position: absolute; inset: 0; background: #ffffff; z-index: 1005; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.spinner { width: 50px; height: 50px; border: 5px solid #e5e7eb; border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Utilitário */
+.hidden { display: none !important; }
+
+/* Selo do Cronômetro */
+.load-time {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(17, 24, 39, 0.85); /* Fundo escuro transparente */
+  color: #10b981; /* Verde bonitão de sucesso */
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  z-index: 1010;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  backdrop-filter: blur(4px);
+}
+
+/* Estilo da miniatura estática sem 3D */
+.static-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0e7ff 0%, #ede9fe 100%);
+  font-size: 4rem;
+}
+
+.cube-icon {
+  opacity: 0.6;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cube-icon {
+  transform: scale(1.2) translateY(-5px);
+  opacity: 1;
+}

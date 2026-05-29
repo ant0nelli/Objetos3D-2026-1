@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <title>Acervo 3D - Museu Histórico de São José</title>
-  <link rel="stylesheet" href="/src/style.css" />
 
-  <style>
+<head>
+    <meta charset="UTF-8" />
+    <title>Acervo 3D - Museu Histórico de São José</title>
+    <link rel="stylesheet" href="/src/style.css" />
+
+    <style>
         /* Reset básico para remover margens padrões */
         * {
             margin: 0;
@@ -15,7 +16,8 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #111; /* Cor de fundo apenas para destaque */
+            background-color: #111;
+            /* Cor de fundo apenas para destaque */
         }
 
         /* Estilização do Cabeçalho principal */
@@ -27,14 +29,16 @@
             padding: 15px 40px;
             width: 100%;
             min-height: 100px;
-            border-bottom: 1px solid #333; /* Uma linha sutil no fundo */
+            border-bottom: 1px solid #333;
+            /* Uma linha sutil no fundo */
         }
 
         /* Bloco da Esquerda: Logos e Título */
         .logo-section {
             display: flex;
             align-items: center;
-            gap: 20px; /* Aumentado ligeiramente para melhor espaçamento */
+            gap: 20px;
+            /* Aumentado ligeiramente para melhor espaçamento */
         }
 
         /* Contêiner da logo da prefeitura integrada */
@@ -43,21 +47,23 @@
             align-items: center;
             padding-right: 20px;
             /* Esta linha divisória substitui a borda simulada anterior */
-            border-right: 1px solid rgba(255, 255, 255, 0.3); 
+            border-right: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         /* Estilização da imagem da logo */
         .logo-pref-img {
             /* Ajuste a altura conforme necessário para o seu layout */
-            height: 60px; 
-            width: auto; /* Mantém a proporção */
+            height: 60px;
+            width: auto;
+            /* Mantém a proporção */
             display: block;
         }
 
         /* Título do Museu */
         .museum-title {
             color: #ffffff;
-            font-size: 19px; /* Ajuste sutil no tamanho */
+            font-size: 19px;
+            /* Ajuste sutil no tamanho */
             font-weight: 500;
             line-height: 1.2;
         }
@@ -66,7 +72,8 @@
         .nav-menu {
             display: flex;
             align-items: center;
-            gap: 30px; /* Espaçamento entre os links */
+            gap: 30px;
+            /* Espaçamento entre os links */
         }
 
         .nav-item {
@@ -76,13 +83,14 @@
             font-weight: 400;
             text-align: center;
             transition: color 0.2s ease;
-            white-space: pre-line; /* Permite a quebra de linha nos itens compostos */
+            white-space: pre-line;
+            /* Permite a quebra de linha nos itens compostos */
             line-height: 1.3;
         }
 
         /* Destaque azul no item "Início" como na imagem original */
         .nav-item.active {
-            color: #007bff; 
+            color: #007bff;
         }
 
         /* Efeito ao passar o mouse */
@@ -95,12 +103,15 @@
             .logo-section {
                 gap: 15px;
             }
+
             .logo-pref-img {
                 height: 50px;
             }
+
             .museum-title {
                 font-size: 17px;
             }
+
             .nav-menu {
                 gap: 20px;
             }
@@ -111,12 +122,15 @@
                 flex-direction: column;
                 gap: 25px;
                 padding: 20px;
-                align-items: flex-start; /* Alinha tudo à esquerda em telas pequenas */
+                align-items: flex-start;
+                /* Alinha tudo à esquerda em telas pequenas */
             }
+
             .logo-pref-container {
                 border-right: none;
                 padding-right: 0;
             }
+
             .nav-menu {
                 flex-wrap: wrap;
                 justify-content: flex-start;
@@ -124,11 +138,56 @@
                 width: 100%;
             }
         }
+
+        .gallery-title {
+            text-align: center;
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 50px 20px 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .gallery-subtitle {
+            text-align: center;
+            color: #ccc;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .acervo-box {
+            max-width: 980px;
+            margin: 60px auto;
+            padding: 40px 50px;
+            background: #141414;
+            /* cinza claro */
+            border: 1px solid #444444;
+            /* borda cinza escura */
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .acervo-box h1 {
+            font-size: 4rem;
+            color: #ffffff;
+            margin-bottom: 25px;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+        }
+
+
+        .acervo-box p {
+            font-size: 1.3rem;
+            color: #ffffff;
+            line-height: 1.5;
+        }
     </style>
- 
+
 </head>
+
 <body>
-  <header class="header-container">
+    <header class="header-container">
         <div class="logo-section">
             <div class="logo-pref-container">
                 <img src="../public/img/logo.webp" alt="Logo Prefeitura de São José" class="logo-pref-img">
@@ -138,37 +197,48 @@
             </div>
         </div>
 
+        <!--Corrigir para colocar direto a página quando os dockers estiverem juntos -->
         <nav class="nav-menu">
-            <a href="#" class="nav-item active">Início</a>
-            <a href="#" class="nav-item">Sobre</a>
-            <a href="#" class="nav-item">Coleções&#10;Culturais</a>
-            <a href="#" class="nav-item">Acervo</a>
-            <a href="#" class="nav-item">Artigos</a>
-            <a href="#" class="nav-item">Tour&#10;Virtual</a>
-            <a href="#" class="nav-item">Nossos&#10;Vídeos</a>
-            <a href="#" class="nav-item">Nossos&#10;Jogos</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/" class="nav-item">Início</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/about" class="nav-item">Sobre</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/colecoes" class="nav-item">Coleções&#10;Culturais</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/acervo" class="nav-item">Acervo</a>
+            <a href="3d-models.html" class="nav-item active">Acervo 3D</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/artigos" class="nav-item">Artigos</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/tour" class="nav-item">Tour&#10;Virtual</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/videos" class="nav-item">Nossos&#10;Vídeos</a>
+            <a href="http://extensaoads.sj.ifsc.edu.br:3000/jogos" class="nav-item">Nossos&#10;Jogos</a>
         </nav>
     </header>
 
+    <div class="acervo-box">
+        <h1>Acervo do Museu</h1>
 
-  <main id="gallery" class="gallery"></main>
-
-  <div id="modal" class="modal hidden">
-    <div class="modal-content">
-      <button id="close-btn" class="close-btn">&times;</button>
-      
-      <div id="modal-loading" class="loading-overlay">
-        <div class="spinner"></div>
-        <p>Carregando Modelo 3D...</p>
-      </div>
-
-      <div id="modal-canvas-container"></div>
-      <div id="load-time-display" class="load-time hidden">⏱ 0.00s</div>
+        <p>
+            Explore os modelos tridimensionais do Museu Histórico de São José
+        </p>
     </div>
-  </div>
 
-  
 
-<script type="module" src="/src/main.js"></script>
+    <main id="gallery" class="gallery"></main>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-btn" class="close-btn">&times;</button>
+
+            <div id="modal-loading" class="loading-overlay">
+                <div class="spinner"></div>
+                <p>Carregando Modelo 3D...</p>
+            </div>
+
+            <div id="modal-canvas-container"></div>
+            <div id="load-time-display" class="load-time hidden">⏱ 0.00s</div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>

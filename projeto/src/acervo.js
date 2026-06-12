@@ -61,6 +61,13 @@ function openAcervoModal(item) {
 
   // Dispara o carregamento em background!
   // Chama a sua função do ModelManager para baixar sem travar a tela.
+  if (item.url) {
+        activate3dBtn.style.display = 'block'; 
+        preloadModel(item.url);
+    } else {
+        activate3dBtn.style.display = 'none'; 
+    }
+  
   preloadModel(item.url);
 }
 
